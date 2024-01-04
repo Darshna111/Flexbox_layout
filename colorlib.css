@@ -1,0 +1,82 @@
+.icon-svg:hover{
+    background-color: rgb(105, 103, 103);
+    cursor: pointer;
+}
+.pull-right{
+ float:right;
+ 
+}
+.pull-left{
+    float: left;
+}
+header{
+    line-height: 20px;
+    background-color: black;
+    color: white;
+}
+.main{
+    background-image: url("bb.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 400px;
+    width: 100%;
+}
+.head{
+    background: rgba(31, 30, 30, 0.5) !important;
+    color: rgba(179, 170, 170, 0.5);
+}
+.svg-limit{
+    padding: 4px;
+    border-right: 1px solid grey;
+    border-left:1px solid grey;
+    color: gray;
+}
+@media only screen and (max-width: 575.98px){
+    .ricon, .head{
+        display: none !important ;
+    }
+   
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px){
+    .img-res{
+        height: 200px;
+        width: 100px;
+        
+    }
+    .img-content{
+        display: flex !important;
+        flex-direction: row;
+       
+    }
+    .recount{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .form-hw{
+        height:100px ;
+        width: 100px;
+    }
+}
+.img-border{
+    border: 1px solid grey;
+}
+.top-right{
+    float:right;
+    
+}
+.continer-bgimg{
+    background-image: url("food1.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 600px;
+    width: 100%;
+    
+}
+.form-hwex{
+    height: 450px;
+    width: 500px;
+}
